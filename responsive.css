@@ -1,0 +1,74 @@
+/* Make padding smaller in mobile */
+header, #info, #contacts {
+  padding: 5px;
+}
+
+/* Make nav items closer to each other in mobile */
+nav a {
+  margin-right: 15px;
+}
+
+/* Make font size smaller in mobile devices */
+body {
+  font-size: 24px;
+}
+
+/* Stack header elements vertically in mobile */
+header {
+  flex-direction: column-reverse;
+  padding: 10px 5px;
+}
+
+/* Align nav items to the center in mobile */
+nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+nav a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Change block width to 100% and decrease margin in mobile */
+.block {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Reduce padding for blocks container */
+.blocks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-info p {
+  font-size: 18px;
+}
+/*.blocks-container {
+    padding: 35px;
+  }
+  block {
+    width: 80%;
+}
+@media only screen and (max-width: 768px) {
+.blocks-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0;
+background-color: #0F110C;
+}
+.block {
+width: 100%;
+text-align: center;
+padding: 0;
+margin-bottom: 30px;
+background-color: #FFFFFF;
+}
+.block p {
+font-size: 18px;
+line-height: 28px;
+padding: 10px;
+}
+}
